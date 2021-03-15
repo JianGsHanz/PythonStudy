@@ -1,0 +1,75 @@
+2021/01/15 17:10:54 mylogger log_util.py try
+2021/01/15 17:10:54 mylogger log_util.py except =  division by zero
+2021/01/15 17:10:54 mylogger log_util.py finally
+2021/01/15 17:10:54 mylogger log_util.py end
+2021/01/15 17:44:13 mylogger log_util.py <_io.TextIOWrapper name='C:/Users/agoto/Desktop/log.txt' mode='r' encoding='cp936'>
+2021/01/15 17:45:44 mylogger log_util.py  Drawable drawable = getDrawable();
+
+    if (null != drawable) {
+
+      @SuppressLint("DrawAllocation")
+
+      RectF f = new RectF(0.0f, 0.0f, width, height);
+
+      @SuppressLint("DrawAllocation") Path now = new Path();
+
+      @SuppressLint("DrawAllocation") Path bg = new Path();
+
+      bg.addRect(f, Path.Direction.CCW);
+
+      now.addRoundRect(f, radius, radius, Path.Direction.CCW);
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)
+
+        now.op(bg, now, Path.Op.DIFFERENCE);
+
+      canvas.drawPath(now, paint);
+
+    }
+2021/01/15 17:49:50 mylogger log_util.py  Drawable drawable = getDrawable();
+
+    if (null != drawable) {
+
+      @SuppressLint("DrawAllocation")
+
+      RectF f = new RectF(0.0f, 0.0f, width, height);
+
+      @SuppressLint("DrawAllocation") Path now = new Path();
+
+      @SuppressLint("DrawAllocation") Path bg = new Path();
+
+      bg.addRect(f, Path.Direction.CCW);
+
+      now.addRoundRect(f, radius, radius, Path.Direction.CCW);
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)
+
+        now.op(bg, now, Path.Op.DIFFERENCE);
+
+      canvas.drawPath(now, paint);
+
+    }
+2021/01/15 17:50:05 mylogger log_util.py  Drawable drawable = getDrawable();
+
+    if (null != drawable) {
+
+      @SuppressLint("DrawAllocation")
+
+      RectF f = new RectF(0.0f, 0.0f, width, height);
+
+      @SuppressLint("DrawAllocation") Path now = new Path();
+
+      @SuppressLint("DrawAllocation") Path bg = new Path();
+
+      bg.addRect(f, Path.Direction.CCW);
+
+      now.addRoundRect(f, radius, radius, Path.Direction.CCW);
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)
+
+        now.op(bg, now, Path.Op.DIFFERENCE);
+
+      canvas.drawPath(now, paint);
+
+    }
+2021/01/15 19:00:39 mylogger log_util.py Hello, world!
